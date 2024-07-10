@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: -5px;
+}
+#l{
+    height:100px;
+    border: 1px solid white;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0px 0px 5px black;
+    display:flex;
+    padding:-5px;
+}
+h2{
+    color:rgba(38, 38, 171, 0.662);
+
+}
+body{
+    background:#efeded;
+}
+#header{ 
+    height: 50px;
+    width: 100%;
+    background: #fafafa;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+ } 
+ #search{
+    color:black;
+    font-size: 15px;
+    margin-top: 10px; 
+    
+ } 
+input{
+    border: none;
+    width: 250px;
+    height: 30px;
+    margin-top: 1px;
+    background-color:aqua ;
+    
+}
+ #search-bar{
+    height: 35px;
+    width: 280px;
+    align-items: center;
+    box-shadow: 0px 0px 5px #808080;
+    background-color: aqua;
+
+} 
+#body{
+    color:aqua;
+    height:100vh;
+    width:95% ;
+    margin:30px;
+  }
+  #first{
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    column-count: 9;
+      }
+ul{
+    color:black;
+    display:flex;
+    justify-content:space-between;
+}
+ul li{
+    list-style:none;
+}
+ul li a{
+    text-decoration: none;
+    color:black;
+}
+h5{
+    text-align:center;
+}
+#second{
+    height: 130px;
+    width: 100%;
+    background: #808080;
+    margin-top: 20px;
+}
+#third{
+    margin-top: 20px;
+    width:100%;
+    height:300px;
+    display:flex;
+    justify-content:space-between;
+}
+#third-first{
+   height:auto;
+   width:900px;
+   background-color: white;
+   overflow: auto;
+}
+#third-second{
+    height:300px;
+    width:280px;
+    background-color:white;
+}
+#third-first h3{
+    color: #000;
+    margin-top: 10px;
+}
+.mobiles{
+    height: 230px;
+    width: 100%;
+    margin: 20px 20px; 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#mobiles1{
+    height: 200px;
+    width:150px;
+    border:1px solid black;
+    text-align:center;
+    padding:5px 5px;
+    align-items: center;
+
+}
+#mobiles1 :hover{
+    scale:1.05;
+}
+
+#fourth{
+    margin-top: 20px ;
+    width:100%;
+    height:400px;
+    background-color: white;
+    overflow-x: scroll;
+}
+#fourth h2{
+    color:#000;
+    margin-top:20px;
+}
+.toys{
+    height: 20px;
+    width: 100%;
+    margin: 20px 20px; 
+    display: flex;
+    justify-content: space-evenly;
+    gap: 25px;
+
+}
+#toys1{
+    border:1px solid black;
+    text-align:center;
+    height:250px; 
+    justify-content: space-evenly;
+
+}
+#toys1 h3{
+    color:#000;
+}
+#five{
+    display: flex;
+}
+.five-first{
+    margin-top: 20px ;
+    width:360px;
+    height:450px;
+    background-color: white;
+    color:#000;
+    padding: 30px;
+}
+#ff1{
+    margin-top: 10px;
+    border:1px solid #000;
+    height: 200px;
+    width: 150px;
+    text-align: center;
+    text-align:center;
+    padding:5px 5px;
+    align-items: center;
+       
+
+}
+#ff1 h2{
+    color:green;
+}
+#ff2{
+    display:flex;
+    gap: 15px;
+}
+.ff3:hover{
+    scale:1.05;
+}
+#ff4{
+    margin-top: 10px;
+    border:1px solid #000;
+    height: 200px;
+    width: 150px;
+    text-align: center;
+    padding:5px 5px;
+    align-items: center;       
+}
+#ff5{
+    display:flex;
+    gap:15px;
+}
+.ff6{
+    background-color:#a4b5c2;
+}
+.ff6{
+    margin:20px;
+}
+.mothertag{
+    height: 400px;
+    width: 100%;
+}
+#mothertag{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.child1,.child2,.child3{
+    height: 350px;
+    width: 380px;
+}
+.child01,.child02{
+    margin-top: 20px;
+    height: 150px;
+    width: 380px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.child001, .child002{
+    scale:1.05;
+}
+.subchild1,.subchild2{
+    margin-top: 10px;
+    border:1px solid #000;
+    height: 130px;
+    width: 130px;
+    text-align: center;
+    padding:5px 5px;
+    align-items: center; 
+}
+.subchild1 h4{
+    color:black;
+    text-align: center;
+}
+.subchild1 h3{
+    color:green;
+}
+.subchild2 h4{
+    color:black;
+    text-align:center;
+}
+.subchild2 h3{
+    color:green;
+}
+.child001:hover,
+.child002:hover,
+.child003:hover,
+.child004:hover,
+.child005:hover,
+.child006:hover,
+.child007:hover,
+.child008:hover,
+.child009:hover,
+.child010:hover,
+.child011:hover,
+.child012:hover{
+ scale:1.1;
+}
+.child2,.child3,.child1{
+    background-color: white;
+}
+.mothertag{
+    margin-top:15px;
+}
+
+
